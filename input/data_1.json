@@ -1,0 +1,84 @@
+{
+    "timeStamp": 1,
+    "evCount": {
+        "Block 1": 3,
+        "Block 2": 0,
+        "Block 3": 2,
+        "Block 4": 2
+    },
+    "evDistribution": {
+        "Block 1": [
+            {
+                "id": "Agent_6",
+                "soc": 0.7675863836184902,
+                "isIdle": true,
+                "block": "Block 1"
+            },
+            {
+                "id": "Agent_3",
+                "soc": 0.7036465510831718,
+                "isIdle": true,
+                "block": "Block 1"
+            },
+            {
+                "id": "Agent_8",
+                "soc": 0.9182858326883704,
+                "isIdle": true,
+                "block": "Block 1"
+            }
+        ],
+        "Block 2": [],
+        "Block 3": [
+            {
+                "id": "Agent_5",
+                "soc": 0.7034474070015191,
+                "isIdle": true,
+                "block": "Block 3"
+            },
+            {
+                "id": "Agent_2",
+                "soc": 0.5147936662776376,
+                "isIdle": true,
+                "block": "Block 3"
+            }
+        ],
+        "Block 4": [
+            {
+                "id": "Agent_1",
+                "soc": 0.7615769342488286,
+                "isIdle": true,
+                "block": "Block 4"
+            },
+            {
+                "id": "Agent_7",
+                "soc": 0.5228274422538227,
+                "isIdle": true,
+                "block": "Block 4"
+            }
+        ]
+    },
+    "requests": {
+        "Block 1": 3,
+        "Block 2": 1,
+        "Block 3": 2,
+        "Block 4": 1
+    },
+    "congestion": {
+        "Block 1": {
+            "Block 2": 3,
+            "Block 3": 3
+        },
+        "Block 2": {
+            "Block 4": 2,
+            "Block 1": 1
+        },
+        "Block 3": {
+            "Block 1": 0,
+            "Block 4": 2
+        },
+        "Block 4": {
+            "Block 2": 3,
+            "Block 3": 4
+        }
+    }
+}

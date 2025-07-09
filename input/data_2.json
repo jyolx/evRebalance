@@ -1,0 +1,91 @@
+{
+    "timeStamp": 2,
+    "evCount": {
+        "Block 1": 2,
+        "Block 2": 1,
+        "Block 3": 2,
+        "Block 4": 3
+    },
+    "evDistribution": {
+        "Block 1": [
+            {
+                "id": "Agent_7",
+                "soc": 0.47617712125569084,
+                "isIdle": true,
+                "block": "Block 1"
+            },
+            {
+                "id": "Agent_6",
+                "soc": 0.7675863836184902,
+                "isIdle": true,
+                "block": "Block 1"
+            }
+        ],
+        "Block 2": [
+            {
+                "id": "Agent_2",
+                "soc": 0.4405324347773692,
+                "isIdle": true,
+                "block": "Block 2"
+            }
+        ],
+        "Block 3": [
+            {
+                "id": "Agent_1",
+                "soc": 0.6585929286083341,
+                "isIdle": true,
+                "block": "Block 3"
+            },
+            {
+                "id": "Agent_9",
+                "soc": 0.6369050361222672,
+                "isIdle": true,
+                "block": "Block 3"
+            }
+        ],
+        "Block 4": [
+            {
+                "id": "Agent_5",
+                "soc": 0.6272850750455947,
+                "isIdle": true,
+                "block": "Block 4"
+            },
+            {
+                "id": "Agent_4",
+                "soc": 0.4657919546648661,
+                "isIdle": true,
+                "block": "Block 4"
+            },
+            {
+                "id": "Agent_8",
+                "soc": 0.8460627551802538,
+                "isIdle": true,
+                "block": "Block 4"
+            }
+        ]
+    },
+    "requests": {
+        "Block 1": 3,
+        "Block 2": 0,
+        "Block 3": 2,
+        "Block 4": 0
+    },
+    "congestion": {
+        "Block 1": {
+            "Block 2": 3,
+            "Block 3": 3
+        },
+        "Block 2": {
+            "Block 4": 2,
+            "Block 1": 1
+        },
+        "Block 3": {
+            "Block 1": 0,
+            "Block 4": 3
+        },
+        "Block 4": {
+            "Block 2": 3,
+            "Block 3": 4
+        }
+    }
+}

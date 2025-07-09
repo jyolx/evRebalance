@@ -1,0 +1,7 @@
+Action Set: {'Agent_8': ['Block 1', 'Block 2', 'Block 3'], 'Agent_4': ['Block 1', 'Block 2', 'Block 3'], 'Agent_9': ['Block 3', 'Block 1', 'Block 4'], 'Agent_10': ['Block 3', 'Block 1', 'Block 4'], 'Agent_1': ['Block 4', 'Block 2', 'Block 3'], 'Agent_6': ['Block 4', 'Block 2', 'Block 3']}
+Feasible Actions: {'Agent_8': ['Block 1'], 'Agent_4': ['Block 1'], 'Agent_9': ['Block 3', 'Block 1'], 'Agent_10': ['Block 3', 'Block 1'], 'Agent_1': ['Block 4'], 'Agent_6': ['Block 4']}
+Strategy Profile based on payoff: {'Agent_8': 'Block 1', 'Agent_4': 'Block 1', 'Agent_9': 'Block 3', 'Agent_10': 'Block 3', 'Agent_1': 'Block 4', 'Agent_6': 'Block 4'}
+Profile 1: {'Agent_8': 'Block 1', 'Agent_4': 'Block 1', 'Agent_9': 'Block 3', 'Agent_10': 'Block 3', 'Agent_1': 'Block 4', 'Agent_6': 'Block 4'}
+Profile 2: {'Agent_8': 'Block 1', 'Agent_4': 'Block 1', 'Agent_9': 'Block 3', 'Agent_10': 'Block 1', 'Agent_1': 'Block 4', 'Agent_6': 'Block 4'}
+Profile 3: {'Agent_8': 'Block 1', 'Agent_4': 'Block 1', 'Agent_9': 'Block 1', 'Agent_10': 'Block 3', 'Agent_1': 'Block 4', 'Agent_6': 'Block 4'}
+Profile 4: {'Agent_8': 'Block 1', 'Agent_4': 'Block 1', 'Agent_9': 'Block 1', 'Agent_10': 'Block 1', 'Agent_1': 'Block 4', 'Agent_6': 'Block 4'}

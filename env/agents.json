@@ -1,0 +1,65 @@
+{
+    "noOfAgents": 10,
+    "agents": {
+        "Agent_1": {
+            "id": "Agent_1",
+            "soc": 0.6585929286083341,
+            "isIdle": false,
+            "block": "Block 3"
+        },
+        "Agent_2": {
+            "id": "Agent_2",
+            "soc": 0.3956214640393103,
+            "isIdle": true,
+            "block": "Block 4"
+        },
+        "Agent_3": {
+            "id": "Agent_3",
+            "soc": 0.7036465510831718,
+            "isIdle": false,
+            "block": "Block 1"
+        },
+        "Agent_4": {
+            "id": "Agent_4",
+            "soc": 0.4084149977745239,
+            "isIdle": true,
+            "block": "Block 1"
+        },
+        "Agent_5": {
+            "id": "Agent_5",
+            "soc": 0.6272850750455947,
+            "isIdle": true,
+            "block": "Block 4"
+        },
+        "Agent_6": {
+            "id": "Agent_6",
+            "soc": 0.7675863836184902,
+            "isIdle": false,
+            "block": "Block 1"
+        },
+        "Agent_7": {
+            "id": "Agent_7",
+            "soc": 0.45096848027606307,
+            "isIdle": true,
+            "block": "Block 3"
+        },
+        "Agent_8": {
+            "id": "Agent_8",
+            "soc": 0.7903429780016499,
+            "isIdle": true,
+            "block": "Block 3"
+        },
+        "Agent_9": {
+            "id": "Agent_9",
+            "soc": 0.5831504450781714,
+            "isIdle": true,
+            "block": "Block 1"
+        },
+        "Agent_10": {
+            "id": "Agent_10",
+            "soc": 0.6686454125051405,
+            "isIdle": false,
+            "block": "Block 3"
+        }
+    }
+}
