@@ -103,11 +103,21 @@ if __name__ == "__main__":
     agents = get_agents(data)
     neighbors = params['neighbors']
     action_set = get_action_set(agents, neighbors)
-    print("Action Set:", action_set)
+    print("Action Set:")
+    for agent, actions in action_set.items():
+        print(f"{agent}: {actions}")
+    print("----------------------------------------------")
     feasible_actions_= {agent: feasible_actions(agent, agents, action_set, data['congestion']) for agent in agents}
-    print("Feasible Actions:", feasible_actions_)
+    print("Feasible Actions:")
+    for agent, actions in feasible_actions_.items():
+        print(f"{agent}: {actions}")
+    print("----------------------------------------------")
     profile = strategy_profile(agents, action_set, data['congestion'], params)
-    print("Strategy Profile based on payoff:", profile)
+    print("Strategy Profile based on payoff:")
+    for agent, action in profile.items():
+        print(f"{agent} -> {action}")
+    print("----------------------------------------------")
     all_profiles = generate_all_strategy(agents, action_set, data['congestion'])
+    print("All Strategy Profiles:")
     for i, p in enumerate(all_profiles):
         print(f"Profile {i+1}: {p}")
