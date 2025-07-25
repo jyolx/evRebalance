@@ -1,17 +1,21 @@
 # Steps to recreate environment -:
 
-1. Run env.py to generate parameters.json and agents.json
-2. Run input.py to generate data_x.json which is the input file for timesamp x. Value of x can be changed accordingly.
-3. Run generate_strategy.py to get action set and strategy profile.
-</br>
-Note - The agents.json file represents the state of agents after x timestamps and not the state before timestamp 0.
+``` 
+bash run.sh
+```
+
+## What the shell script does : 
+1. Delete existing agent, parameter, input and strategy files.
+2. env.py to generate agents.json and parameters.json
+3. input.py to generate testcase.json with 4 timesteps.
+4. objective.py to generate strategy profiles. Generates the strategy.txt and strategy_comparison.png
 
 # Input Generation
 
 ## The input is separated as follows :-
-- Parameter.json - This file contains all environment info which is common for all timestamps => no. of blocks, grid size, neighbors, mean and standard deviation for generating requests, ev distribution and congestion matrix.
-- Agents.json - This file contains agent information => agent id, soc, is idle parameter, current block.
-- Input file for each time stamp - This file contains the information at each timestamp => no of evs in each block, list of evs in each block, no of requests in each block, congestion matrix.
+- `Parameter.json` - This file contains all environment info which is common for all timestamps => no. of blocks, grid size, neighbors, mean and standard deviation for generating requests, ev distribution and congestion matrix.
+- `Agents.json` - This file contains agent information => agent id, soc, is idle parameter, current block.
+- `testcase.json` - This file contains the information at all timestamps => no of evs in each block, list of evs in each block, no of requests in each block, congestion matrix.
 
 ## Changes made while creating input file :-
 - No of evs idle at a block is with respect to the mean and standard deviation.
