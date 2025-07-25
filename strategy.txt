@@ -1,0 +1,444 @@
+Timestamp Index: 0
+Action Set:
+ - Agent_1: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_3: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_10: ['Block 2', 'Block 4', 'Block 1']
+ - Agent_2: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_6: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_4: ['Block 4', 'Block 2', 'Block 3']
+ - Agent_7: ['Block 4', 'Block 2', 'Block 3']
+ - Agent_8: ['Block 4', 'Block 2', 'Block 3']
+Feasible Actions:
+ - Agent_1: ['Block 1']
+ - Agent_3: ['Block 1']
+ - Agent_10: ['Block 2']
+ - Agent_2: ['Block 3']
+ - Agent_6: ['Block 3']
+ - Agent_4: ['Block 4']
+ - Agent_7: ['Block 4']
+ - Agent_8: ['Block 4']
+All Strategy Profiles:
+ - Profile 0:
+   - Agent_1 -> Block 1
+   - Agent_3 -> Block 1
+   - Agent_10 -> Block 2
+   - Agent_2 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_4 -> Block 4
+   - Agent_7 -> Block 4
+   - Agent_8 -> Block 4
+   - Objective Value: 1
+Strategy Profile based on payoff:
+ - Agent_1 -> Block 1
+ - Agent_3 -> Block 1
+ - Agent_10 -> Block 2
+ - Agent_2 -> Block 3
+ - Agent_6 -> Block 3
+ - Agent_4 -> Block 4
+ - Agent_7 -> Block 4
+ - Agent_8 -> Block 4
+ - Objective Value: 1
+Best Strategy Profile According to Objective Function:
+ - Profile 0: {'Agent_1': 'Block 1', 'Agent_3': 'Block 1', 'Agent_10': 'Block 2', 'Agent_2': 'Block 3', 'Agent_6': 'Block 3', 'Agent_4': 'Block 4', 'Agent_7': 'Block 4', 'Agent_8': 'Block 4'}
+ - Objective Value: 1
+-----------------------------------------------
+Timestamp Index: 1
+Action Set:
+ - Agent_2: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_8: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_9: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_6: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_7: ['Block 4', 'Block 2', 'Block 3']
+ - Agent_3: ['Block 4', 'Block 2', 'Block 3']
+ - Agent_10: ['Block 4', 'Block 2', 'Block 3']
+Feasible Actions:
+ - Agent_2: ['Block 1']
+ - Agent_8: ['Block 1']
+ - Agent_9: ['Block 3', 'Block 1']
+ - Agent_6: ['Block 3', 'Block 1']
+ - Agent_7: ['Block 4', 'Block 2']
+ - Agent_3: ['Block 4', 'Block 2']
+ - Agent_10: ['Block 4', 'Block 2']
+All Strategy Profiles:
+ - Profile 0:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 1:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 2:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 3:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 4:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 5:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 6:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 7:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 8:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 9:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 10:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 11:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 12:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 13:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 14:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 15:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 3
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 16:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 17:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 18:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 19:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 20:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 21:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 22:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 23:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 3
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 1
+ - Profile 24:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 25:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 2
+ - Profile 26:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 27:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 4
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 2
+ - Profile 28:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 29:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 4
+   - Agent_10 -> Block 2
+   - Objective Value: 2
+ - Profile 30:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 4
+   - Objective Value: 2
+ - Profile 31:
+   - Agent_2 -> Block 1
+   - Agent_8 -> Block 1
+   - Agent_9 -> Block 1
+   - Agent_6 -> Block 1
+   - Agent_7 -> Block 2
+   - Agent_3 -> Block 2
+   - Agent_10 -> Block 2
+   - Objective Value: 2
+Strategy Profile based on payoff:
+ - Agent_2 -> Block 1
+ - Agent_8 -> Block 1
+ - Agent_9 -> Block 1
+ - Agent_6 -> Block 1
+ - Agent_7 -> Block 2
+ - Agent_3 -> Block 4
+ - Agent_10 -> Block 2
+ - Objective Value: 2
+Best Strategy Profile According to Objective Function:
+ - Profile 1: {'Agent_2': 'Block 1', 'Agent_8': 'Block 1', 'Agent_9': 'Block 3', 'Agent_6': 'Block 3', 'Agent_7': 'Block 4', 'Agent_3': 'Block 4', 'Agent_10': 'Block 2'}
+ - Objective Value: 1
+-----------------------------------------------
+Timestamp Index: 2
+Action Set:
+ - Agent_7: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_2: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_4: ['Block 2', 'Block 4', 'Block 1']
+ - Agent_8: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_1: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_5: ['Block 4', 'Block 2', 'Block 3']
+ - Agent_10: ['Block 4', 'Block 2', 'Block 3']
+Feasible Actions:
+ - Agent_7: ['Block 1']
+ - Agent_2: ['Block 1']
+ - Agent_4: ['Block 2', 'Block 4']
+ - Agent_8: ['Block 3']
+ - Agent_1: ['Block 3']
+ - Agent_5: ['Block 4']
+ - Agent_10: ['Block 4']
+All Strategy Profiles:
+ - Profile 0:
+   - Agent_7 -> Block 1
+   - Agent_2 -> Block 1
+   - Agent_4 -> Block 2
+   - Agent_8 -> Block 3
+   - Agent_1 -> Block 3
+   - Agent_5 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+ - Profile 1:
+   - Agent_7 -> Block 1
+   - Agent_2 -> Block 1
+   - Agent_4 -> Block 4
+   - Agent_8 -> Block 3
+   - Agent_1 -> Block 3
+   - Agent_5 -> Block 4
+   - Agent_10 -> Block 4
+   - Objective Value: 1
+Strategy Profile based on payoff:
+ - Agent_7 -> Block 1
+ - Agent_2 -> Block 1
+ - Agent_4 -> Block 2
+ - Agent_8 -> Block 3
+ - Agent_1 -> Block 3
+ - Agent_5 -> Block 4
+ - Agent_10 -> Block 4
+ - Objective Value: 1
+Best Strategy Profile According to Objective Function:
+ - Profile 0: {'Agent_7': 'Block 1', 'Agent_2': 'Block 1', 'Agent_4': 'Block 2', 'Agent_8': 'Block 3', 'Agent_1': 'Block 3', 'Agent_5': 'Block 4', 'Agent_10': 'Block 4'}
+ - Objective Value: 1
+-----------------------------------------------
+Timestamp Index: 3
+Action Set:
+ - Agent_9: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_3: ['Block 1', 'Block 2', 'Block 3']
+ - Agent_6: ['Block 2', 'Block 4', 'Block 1']
+ - Agent_10: ['Block 3', 'Block 1', 'Block 4']
+ - Agent_2: ['Block 4', 'Block 2', 'Block 3']
+Feasible Actions:
+ - Agent_9: ['Block 1']
+ - Agent_3: ['Block 1']
+ - Agent_6: ['Block 2']
+ - Agent_10: ['Block 3']
+ - Agent_2: ['Block 4']
+All Strategy Profiles:
+ - Profile 0:
+   - Agent_9 -> Block 1
+   - Agent_3 -> Block 1
+   - Agent_6 -> Block 2
+   - Agent_10 -> Block 3
+   - Agent_2 -> Block 4
+   - Objective Value: 1
+Strategy Profile based on payoff:
+ - Agent_9 -> Block 1
+ - Agent_3 -> Block 1
+ - Agent_6 -> Block 2
+ - Agent_10 -> Block 3
+ - Agent_2 -> Block 4
+ - Objective Value: 1
+Best Strategy Profile According to Objective Function:
+ - Profile 0: {'Agent_9': 'Block 1', 'Agent_3': 'Block 1', 'Agent_6': 'Block 2', 'Agent_10': 'Block 3', 'Agent_2': 'Block 4'}
+ - Objective Value: 1
+-----------------------------------------------
