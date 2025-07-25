@@ -63,7 +63,7 @@ def generate_data(timeStamp, nblocks, gridSize, neighbors, distributionEV, distr
         for _ in range(ev_count[block_name]):
             if agent_index < len(available_agents):
                 agent_name = available_agents[agent_index]
-                agent_info = agents[agent_name].copy()  # Get full agent info
+                agent_info = agents[agent_name]
                 
                 current_block = agent_info.get("block", None)
                 
@@ -81,7 +81,9 @@ def generate_data(timeStamp, nblocks, gridSize, neighbors, distributionEV, distr
                     agent_info["soc"] = max(0.0, new_soc)
                 
                 # Add the full agent info to ev_distribution
-                ev_distribution[block_name].append(agent_info)
+                # print(f"Assigning {agent_name} to {block_name} with SOC {agent_info['soc']}")
+                # print(agent_info)
+                ev_distribution[block_name].append(agent_info.copy())
                 
                 # Update the original agents dictionary
                 agents[agent_name] = agent_info
@@ -90,6 +92,8 @@ def generate_data(timeStamp, nblocks, gridSize, neighbors, distributionEV, distr
                 agent_index += 1
 
     # For unassigned agents, set isidle to False
+    # print("Assigned Agents:", assigned_agents)
+    # print("Unassigned Agents:", set(agents.keys()) - assigned_agents)
     for agent_name in agents:
         if agent_name not in assigned_agents:
             agents[agent_name]["isIdle"] = False
@@ -124,12 +128,14 @@ if __name__ == "__main__":
     scaleRequest = 10
     scaleCongestion = 10
 
+    timestamps = []
+
     for x in range(4):
+        # print(f"Generating data for timestamp {x + 1}...")
         data, agents = generate_data(x, nblocks, gridSize, neighbors, distributionEV, distributionRequest, distributionCongestion, noOfAgents, agents, scaleEv, scaleRequest, scaleCongestion)
-        with open(f"input/data_{x}.json", "w") as f:
-            json.dump(data, f, indent=4)            
+        timestamps.append(data)      
 
-    with open("env/agents.json", "w") as f:
-        json.dump({"noOfAgents": noOfAgents, "agents": agents}, f, indent=4)
+    with open("input/testcase.json", "w") as f:
+        json.dump(timestamps, f, indent=4)
 
-    print("Data and agents generated successfully.")
+    print("Data generated successfully.")

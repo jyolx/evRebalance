@@ -1,0 +1,335 @@
+[
+    {
+        "timeStamp": 0,
+        "evCount": {
+            "Block 1": 2,
+            "Block 2": 1,
+            "Block 3": 2,
+            "Block 4": 3
+        },
+        "evDistribution": {
+            "Block 1": [
+                {
+                    "id": "Agent_1",
+                    "soc": 0.7156253032313236,
+                    "isIdle": true,
+                    "block": "Block 1"
+                },
+                {
+                    "id": "Agent_3",
+                    "soc": 0.8439520730262601,
+                    "isIdle": true,
+                    "block": "Block 1"
+                }
+            ],
+            "Block 2": [
+                {
+                    "id": "Agent_10",
+                    "soc": 0.7849151617874047,
+                    "isIdle": true,
+                    "block": "Block 2"
+                }
+            ],
+            "Block 3": [
+                {
+                    "id": "Agent_2",
+                    "soc": 0.6077510901862914,
+                    "isIdle": true,
+                    "block": "Block 3"
+                },
+                {
+                    "id": "Agent_6",
+                    "soc": 0.6054518426189612,
+                    "isIdle": true,
+                    "block": "Block 3"
+                }
+            ],
+            "Block 4": [
+                {
+                    "id": "Agent_4",
+                    "soc": 0.7082543233129561,
+                    "isIdle": true,
+                    "block": "Block 4"
+                },
+                {
+                    "id": "Agent_7",
+                    "soc": 0.8187035765891244,
+                    "isIdle": true,
+                    "block": "Block 4"
+                },
+                {
+                    "id": "Agent_8",
+                    "soc": 0.5287897538509604,
+                    "isIdle": true,
+                    "block": "Block 4"
+                }
+            ]
+        },
+        "requests": {
+            "Block 1": 3,
+            "Block 2": 1,
+            "Block 3": 2,
+            "Block 4": 1
+        },
+        "congestion": {
+            "Block 1": {
+                "Block 2": 3,
+                "Block 3": 3
+            },
+            "Block 2": {
+                "Block 4": 2,
+                "Block 1": 4
+            },
+            "Block 3": {
+                "Block 1": 3,
+                "Block 4": 3
+            },
+            "Block 4": {
+                "Block 2": 2,
+                "Block 3": 2
+            }
+        }
+    },
+    {
+        "timeStamp": 1,
+        "evCount": {
+            "Block 1": 2,
+            "Block 2": 0,
+            "Block 3": 2,
+            "Block 4": 3
+        },
+        "evDistribution": {
+            "Block 1": [
+                {
+                    "id": "Agent_2",
+                    "soc": 0.5258400585418446,
+                    "isIdle": true,
+                    "block": "Block 1"
+                },
+                {
+                    "id": "Agent_8",
+                    "soc": 0.4819430403998932,
+                    "isIdle": true,
+                    "block": "Block 1"
+                }
+            ],
+            "Block 2": [],
+            "Block 3": [
+                {
+                    "id": "Agent_9",
+                    "soc": 0.5252227029964868,
+                    "isIdle": true,
+                    "block": "Block 3"
+                },
+                {
+                    "id": "Agent_6",
+                    "soc": 0.6054518426189612,
+                    "isIdle": true,
+                    "block": "Block 3"
+                }
+            ],
+            "Block 4": [
+                {
+                    "id": "Agent_7",
+                    "soc": 0.8187035765891244,
+                    "isIdle": true,
+                    "block": "Block 4"
+                },
+                {
+                    "id": "Agent_3",
+                    "soc": 0.7998127996847099,
+                    "isIdle": true,
+                    "block": "Block 4"
+                },
+                {
+                    "id": "Agent_10",
+                    "soc": 0.669595778272196,
+                    "isIdle": true,
+                    "block": "Block 4"
+                }
+            ]
+        },
+        "requests": {
+            "Block 1": 3,
+            "Block 2": 2,
+            "Block 3": 2,
+            "Block 4": 1
+        },
+        "congestion": {
+            "Block 1": {
+                "Block 2": 3,
+                "Block 3": 3
+            },
+            "Block 2": {
+                "Block 4": 2,
+                "Block 1": 4
+            },
+            "Block 3": {
+                "Block 1": 1,
+                "Block 4": 2
+            },
+            "Block 4": {
+                "Block 2": 1,
+                "Block 3": 2
+            }
+        }
+    },
+    {
+        "timeStamp": 2,
+        "evCount": {
+            "Block 1": 2,
+            "Block 2": 1,
+            "Block 3": 2,
+            "Block 4": 2
+        },
+        "evDistribution": {
+            "Block 1": [
+                {
+                    "id": "Agent_7",
+                    "soc": 0.7274395330661095,
+                    "isIdle": true,
+                    "block": "Block 1"
+                },
+                {
+                    "id": "Agent_2",
+                    "soc": 0.5258400585418446,
+                    "isIdle": true,
+                    "block": "Block 1"
+                }
+            ],
+            "Block 2": [
+                {
+                    "id": "Agent_4",
+                    "soc": 0.668349806207217,
+                    "isIdle": true,
+                    "block": "Block 2"
+                }
+            ],
+            "Block 3": [
+                {
+                    "id": "Agent_8",
+                    "soc": 0.43100323271873303,
+                    "isIdle": true,
+                    "block": "Block 3"
+                },
+                {
+                    "id": "Agent_1",
+                    "soc": 0.6607504448464256,
+                    "isIdle": true,
+                    "block": "Block 3"
+                }
+            ],
+            "Block 4": [
+                {
+                    "id": "Agent_5",
+                    "soc": 0.47331850988793955,
+                    "isIdle": true,
+                    "block": "Block 4"
+                },
+                {
+                    "id": "Agent_10",
+                    "soc": 0.669595778272196,
+                    "isIdle": true,
+                    "block": "Block 4"
+                }
+            ]
+        },
+        "requests": {
+            "Block 1": 3,
+            "Block 2": 1,
+            "Block 3": 2,
+            "Block 4": 1
+        },
+        "congestion": {
+            "Block 1": {
+                "Block 2": 3,
+                "Block 3": 2
+            },
+            "Block 2": {
+                "Block 4": 0,
+                "Block 1": 4
+            },
+            "Block 3": {
+                "Block 1": 3,
+                "Block 4": 3
+            },
+            "Block 4": {
+                "Block 2": 2,
+                "Block 3": 2
+            }
+        }
+    },
+    {
+        "timeStamp": 3,
+        "evCount": {
+            "Block 1": 2,
+            "Block 2": 1,
+            "Block 3": 1,
+            "Block 4": 1
+        },
+        "evDistribution": {
+            "Block 1": [
+                {
+                    "id": "Agent_9",
+                    "soc": 0.4552771735637844,
+                    "isIdle": true,
+                    "block": "Block 1"
+                },
+                {
+                    "id": "Agent_3",
+                    "soc": 0.7158324657144408,
+                    "isIdle": true,
+                    "block": "Block 1"
+                }
+            ],
+            "Block 2": [
+                {
+                    "id": "Agent_6",
+                    "soc": 0.5694587140218381,
+                    "isIdle": true,
+                    "block": "Block 2"
+                }
+            ],
+            "Block 3": [
+                {
+                    "id": "Agent_10",
+                    "soc": 0.5846494518045848,
+                    "isIdle": true,
+                    "block": "Block 3"
+                }
+            ],
+            "Block 4": [
+                {
+                    "id": "Agent_2",
+                    "soc": 0.49310663975884067,
+                    "isIdle": true,
+                    "block": "Block 4"
+                }
+            ]
+        },
+        "requests": {
+            "Block 1": 3,
+            "Block 2": 2,
+            "Block 3": 2,
+            "Block 4": 1
+        },
+        "congestion": {
+            "Block 1": {
+                "Block 2": 3,
+                "Block 3": 3
+            },
+            "Block 2": {
+                "Block 4": 2,
+                "Block 1": 4
+            },
+            "Block 3": {
+                "Block 1": 2,
+                "Block 4": 4
+            },
+            "Block 4": {
+                "Block 2": 2,
+                "Block 3": 3
+            }
+        }
+    }
+]

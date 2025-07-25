@@ -3,63 +3,63 @@
     "agents": {
         "Agent_1": {
             "id": "Agent_1",
-            "soc": 0.6585929286083341,
-            "isIdle": false,
-            "block": "Block 3"
+            "soc": 0.76,
+            "isIdle": true,
+            "block": "Block_1"
         },
         "Agent_2": {
             "id": "Agent_2",
-            "soc": 0.3956214640393103,
+            "soc": 0.64,
             "isIdle": true,
-            "block": "Block 4"
+            "block": "Block_4"
         },
         "Agent_3": {
             "id": "Agent_3",
-            "soc": 0.7036465510831718,
-            "isIdle": false,
-            "block": "Block 1"
+            "soc": 0.95,
+            "isIdle": true,
+            "block": "Block_2"
         },
         "Agent_4": {
             "id": "Agent_4",
-            "soc": 0.4084149977745239,
+            "soc": 0.81,
             "isIdle": true,
-            "block": "Block 1"
+            "block": "Block_4"
         },
         "Agent_5": {
             "id": "Agent_5",
-            "soc": 0.6272850750455947,
+            "soc": 0.53,
             "isIdle": true,
-            "block": "Block 4"
+            "block": "Block_4"
         },
         "Agent_6": {
             "id": "Agent_6",
-            "soc": 0.7675863836184902,
-            "isIdle": false,
-            "block": "Block 1"
+            "soc": 0.68,
+            "isIdle": true,
+            "block": "Block_1"
         },
         "Agent_7": {
             "id": "Agent_7",
-            "soc": 0.45096848027606307,
+            "soc": 0.95,
             "isIdle": true,
-            "block": "Block 3"
+            "block": "Block_1"
         },
         "Agent_8": {
             "id": "Agent_8",
-            "soc": 0.7903429780016499,
+            "soc": 0.62,
             "isIdle": true,
-            "block": "Block 3"
+            "block": "Block_3"
         },
         "Agent_9": {
             "id": "Agent_9",
-            "soc": 0.5831504450781714,
+            "soc": 0.59,
             "isIdle": true,
-            "block": "Block 1"
+            "block": "Block_2"
         },
         "Agent_10": {
             "id": "Agent_10",
-            "soc": 0.6686454125051405,
-            "isIdle": false,
-            "block": "Block 3"
+            "soc": 0.89,
+            "isIdle": true,
+            "block": "Block_3"
         }
     }
 }
